@@ -7,5 +7,9 @@ var trace1 = {
   
   
   var data = [trace1];
+
+  var layout = {
+    title: 'Line Graph f Grades'
+  }
   
   Plotly.plot('myDiv', data);
